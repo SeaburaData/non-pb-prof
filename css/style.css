@@ -1,0 +1,100 @@
+/* Poppinsフォントのインポート */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+/* 全体のフォント設定 */
+* {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight:300;
+}
+
+h1, .css-10trblm, .css-zt5igj {
+    font-family: 'Poppins', sans-serif !important;
+    font-size:0.8em;
+    font-weight: 200 !important;
+}
+
+h2 {
+    font-size: 1.1em !important;
+    color:aquamarine !important;
+}
+
+.stApp {
+    background-color: #22272e;
+    color: #ffffff;
+}
+
+/* マークダウンと通常テキストの色 */
+.stMarkdown, .stText {
+    color: #ffffff;
+}
+
+/* データフレームの背景色を調整 */
+.dataframe {
+    background-color: #444444;
+}
+
+/* エクスパンダーの背景色を調整 */
+.streamlit-expanderHeader {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+/* ラベルの色 */
+.stSelectbox label {
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 1.2rem !important;
+    font-weight:300;
+    color:aquamarine;
+}
+
+h3 a {
+    color: #ec5a53 !important
+}
+
+/* セレクトボックスの上部スペースを削除 */
+.stSelectbox {
+    margin-top: -1rem !important;
+}
+
+.stRadio {
+    margin-top: -2rem !important;
+    margin-bottom: -1rem !important;
+}
+
+.stRadio div {
+    color: #ffffff !important;
+}
+
+.stButton {
+    margin-top: 0.5rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.stButton button {
+    background-color: #ec5a53;
+    color: #ffffff;
+}
+
+.stButton button:active, 
+.stButton button:focus, 
+.stButton button:visited {
+    color: #ffffff !important;
+}
+
+/* マウスオーバー時のボタン */
+.stButton button:hover {
+    background-color: #ff7b75 !important;  /* より明るい赤色 */
+    color: #ffffff !important;
+}
+
+/* 選択不可状態のボタン */
+.stButton button:disabled {
+    background-color: #42474e !important;  /* より暗い色 */
+    color: #cccccc !important;  /* より薄い文字色 */
+    opacity: 0.7;  /* 透明度を設定 */
+    cursor: not-allowed;  /* カーソルを変更 */
+}
